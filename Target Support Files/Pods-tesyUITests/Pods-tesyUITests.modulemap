@@ -1,0 +1,6 @@
+framework module Pods_tesyUITests {
+  umbrella header "Pods-tesyUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

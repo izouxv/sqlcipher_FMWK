@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		319A634C6F485A0A42885DAC2B921FCD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD2500D1B139B0343EDFBF10E0D488E3 /* Security.framework */; };
+		38EBC494F8F7F5FD9D7C962C35825CD7 /* SQLCipher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0334C84857D86AAC3B5249265B9DE66B /* SQLCipher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFA2C5CD6CC567DC98C8F20B14449E81 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 5358669E7AE8B6EAB125F178E34C9204 /* sqlite3.c */; settings = {COMPILER_FLAGS = "-DNDEBUG -DSQLITE_HAS_CODEC -DSQLITE_TEMP_STORE=2 -DSQLITE_SOUNDEX -DSQLITE_THREADSAFE -DSQLITE_ENABLE_RTREE -DSQLITE_ENABLE_STAT3 -DSQLITE_ENABLE_STAT4 -DSQLITE_ENABLE_COLUMN_METADATA -DSQLITE_ENABLE_MEMORY_MANAGEMENT -DSQLITE_ENABLE_LOAD_EXTENSION -DSQLITE_ENABLE_FTS4 -DSQLITE_ENABLE_FTS4_UNICODE61 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DSQLITE_ENABLE_UNLOCK_NOTIFY -DSQLITE_ENABLE_JSON1 -DSQLITE_ENABLE_FTS5 -DSQLCIPHER_CRYPTO_CC -fno-objc-arc"; }; };
+		C7BDB0A1DFAA0368A9E5DE59C5F9D4D4 /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = B6205B12CC3C416AABB06A234CB68236 /* sqlite3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E34FA0E26FDE81DCA646D82C79F8C10B /* SQLCipher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFD7A39B97D5C927B96568EBEB1BE9D /* SQLCipher-dummy.m */; };
+		FB55BE7C364BABE20EE8D21C5F70CB91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99EEA7D51345A1AAC96B7A6A50D5D61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00974D837A036B6AF61BC4C8BC698548 /* Pods-tesyUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tesyUITests-frameworks.sh"; sourceTree = "<group>"; };
+		0334C84857D86AAC3B5249265B9DE66B /* SQLCipher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLCipher-umbrella.h"; sourceTree = "<group>"; };
+		0D5953EC526DE8799C33CC68982619E4 /* Pods-tesy-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tesy-acknowledgements.plist"; sourceTree = "<group>"; };
+		199D62988A1E177B0F8CBB52FE38BF76 /* Pods-tesy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tesy.release.xcconfig"; sourceTree = "<group>"; };
+		2A9041190F17662B2255E619DD7EE83C /* SQLCipher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SQLCipher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EC133D5D8E8D86329FE7C9C83B0381B /* SQLCipher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLCipher.xcconfig; sourceTree = "<group>"; };
+		2EFD7A39B97D5C927B96568EBEB1BE9D /* SQLCipher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQLCipher-dummy.m"; sourceTree = "<group>"; };
+		2FB34D0F4CBC98387F81DF288C515A94 /* Pods-tesyTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tesyTests-dummy.m"; sourceTree = "<group>"; };
+		3009291ED93DDDD11A9914A1760C4B86 /* Pods-tesyTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tesyTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		363BF9278C7E860229F96F3E3D2AEDFF /* Pods-tesy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tesy-dummy.m"; sourceTree = "<group>"; };
+		41D5197381F41B8FA92CEBE79E72FEC8 /* SQLCipher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SQLCipher.modulemap; sourceTree = "<group>"; };
+		4A5F0DCBA34AC8426A566862EBB8AC0A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5358669E7AE8B6EAB125F178E34C9204 /* sqlite3.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = sqlite3.c; sourceTree = "<group>"; };
+		56D3ADF29AC9A6236E7F84A89817F938 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B08F88BB7E9FEEF2D566CB2BC7997DB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6359E29015928C7A6FF51926009C81E2 /* Pods-tesyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tesyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		65C6EB6C123FB75BAA8EBADEBD947E6B /* Pods-tesy-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tesy-frameworks.sh"; sourceTree = "<group>"; };
+		680D6C9C6F3F2BC1B536E12F3346E3FF /* Pods-tesyUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-tesyUITests.modulemap"; sourceTree = "<group>"; };
+		69868E2B9CDE955555D28F5D1FFB5A7A /* Pods-tesyUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tesyUITests-dummy.m"; sourceTree = "<group>"; };
+		79BF94AC893B82FDA354CCA70DE85D38 /* Pods-tesyTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-tesyTests.modulemap"; sourceTree = "<group>"; };
+		7F2CAF002622FD44DAD94A69DAD4DA62 /* Pods-tesy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-tesy.modulemap"; sourceTree = "<group>"; };
+		80D61A3BAF497228B4ED8CAD34793253 /* Pods-tesyTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tesyTests-frameworks.sh"; sourceTree = "<group>"; };
+		844AA7BE11E0C0C66A13064D9FC459EC /* Pods-tesy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tesy.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9583344DE6517DB04CDD9E0EA106B522 /* Pods-tesyTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tesyTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		96BAAAC796B26F55C12507571952C938 /* Pods-tesyTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tesyTests-resources.sh"; sourceTree = "<group>"; };
+		9F789914D8652C003D63C19FDE8ABCFF /* Pods-tesyUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tesyUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A8EAB79068C60419B95BAA7C0B8B31F9 /* Pods-tesy-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tesy-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ABC3FFC0200B049ECF798837CB270D0C /* Pods-tesyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tesyTests.release.xcconfig"; sourceTree = "<group>"; };
+		B6205B12CC3C416AABB06A234CB68236 /* sqlite3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
+		C665F7B087E0F4D0D49D0F51B902571C /* Pods-tesyUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tesyUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C7CDF6B9CDDD06CC3DB607F54D499726 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC18E21C3551611E1574C043C0D2BAEB /* Pods-tesyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tesyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D99EEA7D51345A1AAC96B7A6A50D5D61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DC590763CAAAD7AF54B4918A7000336F /* Pods-tesyUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-tesyUITests-umbrella.h"; sourceTree = "<group>"; };
+		E092A6023490ACC9BBD8835DF6811FB3 /* Pods-tesyTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-tesyTests-umbrella.h"; sourceTree = "<group>"; };
+		E1D8D91B88139E911A95ED53B2C972B5 /* Pods-tesyUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tesyUITests-resources.sh"; sourceTree = "<group>"; };
+		E66281EF6FB3FAB3E022AC045746D45A /* Pods-tesy-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tesy-resources.sh"; sourceTree = "<group>"; };
+		EFA0260353555D341A6FC83161813F15 /* SQLCipher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLCipher-prefix.pch"; sourceTree = "<group>"; };
+		FB2065FACC920919BC12087D8BDEEBC9 /* Pods-tesyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tesyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD2500D1B139B0343EDFBF10E0D488E3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		FE9EADCADFFE6CD0754164DDEA5C92BA /* Pods-tesy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-tesy-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B639A0989D3CAA7FFE2D2189AD57F17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB55BE7C364BABE20EE8D21C5F70CB91 /* Foundation.framework in Frameworks */,
+				319A634C6F485A0A42885DAC2B921FCD /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DF64A452704262C01DE890C44547FDA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4DF64A452704262C01DE890C44547FDA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D99EEA7D51345A1AAC96B7A6A50D5D61 /* Foundation.framework */,
+				FD2500D1B139B0343EDFBF10E0D488E3 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4F6D002A19A37FB7D37158242CB24511 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5935AC909768668FE013AC8C16D5350C /* SQLCipher */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		593303D6CDC45B5449F4AAFA112D8831 /* Pods-tesyTests */ = {
+			isa = PBXGroup;
+			children = (
+				56D3ADF29AC9A6236E7F84A89817F938 /* Info.plist */,
+				79BF94AC893B82FDA354CCA70DE85D38 /* Pods-tesyTests.modulemap */,
+				3009291ED93DDDD11A9914A1760C4B86 /* Pods-tesyTests-acknowledgements.markdown */,
+				9583344DE6517DB04CDD9E0EA106B522 /* Pods-tesyTests-acknowledgements.plist */,
+				2FB34D0F4CBC98387F81DF288C515A94 /* Pods-tesyTests-dummy.m */,
+				80D61A3BAF497228B4ED8CAD34793253 /* Pods-tesyTests-frameworks.sh */,
+				96BAAAC796B26F55C12507571952C938 /* Pods-tesyTests-resources.sh */,
+				E092A6023490ACC9BBD8835DF6811FB3 /* Pods-tesyTests-umbrella.h */,
+				6359E29015928C7A6FF51926009C81E2 /* Pods-tesyTests.debug.xcconfig */,
+				ABC3FFC0200B049ECF798837CB270D0C /* Pods-tesyTests.release.xcconfig */,
+			);
+			name = "Pods-tesyTests";
+			path = "Target Support Files/Pods-tesyTests";
+			sourceTree = "<group>";
+		};
+		5935AC909768668FE013AC8C16D5350C /* SQLCipher */ = {
+			isa = PBXGroup;
+			children = (
+				A7DB393D5F308A42AE205ABE0D7980E6 /* common */,
+				98DBA1EE6055704F488893242A040C9F /* Support Files */,
+			);
+			path = SQLCipher;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				4F6D002A19A37FB7D37158242CB24511 /* Pods */,
+				8F0571A159F9F3486F72389F613D0751 /* Products */,
+				E6AC25C31E2CD9D0A59C39776865E5DB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8F0571A159F9F3486F72389F613D0751 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A9041190F17662B2255E619DD7EE83C /* SQLCipher.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98DBA1EE6055704F488893242A040C9F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7CDF6B9CDDD06CC3DB607F54D499726 /* Info.plist */,
+				41D5197381F41B8FA92CEBE79E72FEC8 /* SQLCipher.modulemap */,
+				2EC133D5D8E8D86329FE7C9C83B0381B /* SQLCipher.xcconfig */,
+				2EFD7A39B97D5C927B96568EBEB1BE9D /* SQLCipher-dummy.m */,
+				EFA0260353555D341A6FC83161813F15 /* SQLCipher-prefix.pch */,
+				0334C84857D86AAC3B5249265B9DE66B /* SQLCipher-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SQLCipher";
+			sourceTree = "<group>";
+		};
+		A7DB393D5F308A42AE205ABE0D7980E6 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				5358669E7AE8B6EAB125F178E34C9204 /* sqlite3.c */,
+				B6205B12CC3C416AABB06A234CB68236 /* sqlite3.h */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		CCABFC30E09997B525C3881DADA9284F /* Pods-tesy */ = {
+			isa = PBXGroup;
+			children = (
+				4A5F0DCBA34AC8426A566862EBB8AC0A /* Info.plist */,
+				7F2CAF002622FD44DAD94A69DAD4DA62 /* Pods-tesy.modulemap */,
+				A8EAB79068C60419B95BAA7C0B8B31F9 /* Pods-tesy-acknowledgements.markdown */,
+				0D5953EC526DE8799C33CC68982619E4 /* Pods-tesy-acknowledgements.plist */,
+				363BF9278C7E860229F96F3E3D2AEDFF /* Pods-tesy-dummy.m */,
+				65C6EB6C123FB75BAA8EBADEBD947E6B /* Pods-tesy-frameworks.sh */,
+				E66281EF6FB3FAB3E022AC045746D45A /* Pods-tesy-resources.sh */,
+				FE9EADCADFFE6CD0754164DDEA5C92BA /* Pods-tesy-umbrella.h */,
+				844AA7BE11E0C0C66A13064D9FC459EC /* Pods-tesy.debug.xcconfig */,
+				199D62988A1E177B0F8CBB52FE38BF76 /* Pods-tesy.release.xcconfig */,
+			);
+			name = "Pods-tesy";
+			path = "Target Support Files/Pods-tesy";
+			sourceTree = "<group>";
+		};
+		D9CAA4828493CBBAAB98F23346BCBEB7 /* Pods-tesyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B08F88BB7E9FEEF2D566CB2BC7997DB /* Info.plist */,
+				680D6C9C6F3F2BC1B536E12F3346E3FF /* Pods-tesyUITests.modulemap */,
+				9F789914D8652C003D63C19FDE8ABCFF /* Pods-tesyUITests-acknowledgements.markdown */,
+				C665F7B087E0F4D0D49D0F51B902571C /* Pods-tesyUITests-acknowledgements.plist */,
+				69868E2B9CDE955555D28F5D1FFB5A7A /* Pods-tesyUITests-dummy.m */,
+				00974D837A036B6AF61BC4C8BC698548 /* Pods-tesyUITests-frameworks.sh */,
+				E1D8D91B88139E911A95ED53B2C972B5 /* Pods-tesyUITests-resources.sh */,
+				DC590763CAAAD7AF54B4918A7000336F /* Pods-tesyUITests-umbrella.h */,
+				FB2065FACC920919BC12087D8BDEEBC9 /* Pods-tesyUITests.debug.xcconfig */,
+				CC18E21C3551611E1574C043C0D2BAEB /* Pods-tesyUITests.release.xcconfig */,
+			);
+			name = "Pods-tesyUITests";
+			path = "Target Support Files/Pods-tesyUITests";
+			sourceTree = "<group>";
+		};
+		E6AC25C31E2CD9D0A59C39776865E5DB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCABFC30E09997B525C3881DADA9284F /* Pods-tesy */,
+				593303D6CDC45B5449F4AAFA112D8831 /* Pods-tesyTests */,
+				D9CAA4828493CBBAAB98F23346BCBEB7 /* Pods-tesyUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		60E7A8944AD31DA40324893F97C3FD43 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EBC494F8F7F5FD9D7C962C35825CD7 /* SQLCipher-umbrella.h in Headers */,
+				C7BDB0A1DFAA0368A9E5DE59C5F9D4D4 /* sqlite3.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		753FC9EEA2EE65F38FACF4A530242EE5 /* SQLCipher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ADE4C31500315AE3E2EE0E79FE6206F /* Build configuration list for PBXNativeTarget "SQLCipher" */;
+			buildPhases = (
+				FEF94DBF1DAF5C099AAFC9AB328BE80F /* Sources */,
+				4B639A0989D3CAA7FFE2D2189AD57F17 /* Frameworks */,
+				60E7A8944AD31DA40324893F97C3FD43 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLCipher;
+			productName = SQLCipher;
+			productReference = 2A9041190F17662B2255E619DD7EE83C /* SQLCipher.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8F0571A159F9F3486F72389F613D0751 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				753FC9EEA2EE65F38FACF4A530242EE5 /* SQLCipher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEF94DBF1DAF5C099AAFC9AB328BE80F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E34FA0E26FDE81DCA646D82C79F8C10B /* SQLCipher-dummy.m in Sources */,
+				AFA2C5CD6CC567DC98C8F20B14449E81 /* sqlite3.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		412C87249CC7547DB0EED401DB3C1F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EC133D5D8E8D86329FE7C9C83B0381B /* SQLCipher.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SQLCipher/SQLCipher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLCipher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SQLCipher/SQLCipher.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SQLCipher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		70826D0316BF494C1EE58517220C384D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7C69B0868EFC651C2E64AE525D6940F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EC133D5D8E8D86329FE7C9C83B0381B /* SQLCipher.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SQLCipher/SQLCipher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLCipher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SQLCipher/SQLCipher.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SQLCipher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C0CCEA32BF6C138A5554FA5059B22B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70826D0316BF494C1EE58517220C384D /* Debug */,
+				C0CCEA32BF6C138A5554FA5059B22B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ADE4C31500315AE3E2EE0E79FE6206F /* Build configuration list for PBXNativeTarget "SQLCipher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C69B0868EFC651C2E64AE525D6940F8 /* Debug */,
+				412C87249CC7547DB0EED401DB3C1F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
